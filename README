@@ -3,18 +3,14 @@
 ##  PROBLEMA 1
 
 Durata implementarii: 1.5h
-Rezolvare: 
-Pe masura ce am citit perechile de cuvinte, le-am salvat, cu spatiu intre ele, intr-un vector de cuvinte (w) si am calculat gradele acestora (functia compute_grade), pe care le-am salvat in vectorul 'grad'.
-Am ordonat descrescator dupa grad vectorul 'grad', efectuand si in vectorul de cuvinte interschimbarile corespunzatoare (bubble sort).
-Am parcurs din nou vectorul 'grad', iar in cazul in care exista s-au gasit grade egale, am sortat vectorii in functie de ordinea lexicografica a cuvintelor (bubble sort).
-Functia compute_grade primeste ca parametrii doua cuvinte si verifica daca sunt anagrame (functia is_anagram), caz in care returneaza gradul -1, altfel parcurge simultan sirurile si compara caracterele doua cate doua. Variabila 'k' retine numarul caracterelor de pe pozitii similare care sunt diferite. Functia returneaza raportul dintre rezultat si lungimea totala a sirurilor.
-Functia is_anagram verifica daca sirurile primite au aceeasi lungime, apoi salveaza in doi vectori numarul de aparitii al fiecarei litere (literei 'a' ii corespunde pozitia 0, literei 'b' ii corespunde pozitia 1, etc.). La sfarsit, se parcurg cei doi vectori si de compara, iar in cazul in care se gasesc diferente, functia returneaza 0. Altfel, cuvintele sunt anagrame si se returneaza valoarea 1.
+Rezolvare: Sortarea perechilor de cuvinte in functie de gradul acestora.
+Functia **compute_grade** primeste ca parametrii doua cuvinte si verifica daca sunt anagrame (functia **is_anagram**), iar in caz contrar returneaza raportul dintre rezultat si lungimea totala a sirurilor.
 
-  #PROBLEMA 2
+##  PROBLEMA 2
 
 Durata implementarii: 3h
 Rezolvare: 
-Pe masura ce se citesc pozitiile nebunilor, am construit o matrice ('sah') in care elementele respective sunt 1, iar restul sunt 0. 
+Am construit o matrice ('sah') in care elementele respective sunt 1, iar restul sunt 0. 
 Am parcurs matricea pentru a gasi valorile de 1. Pentru fiecare, am apelat functiile search_dp si search_ds care returneaza numarul de nebuni cu care se ataca pe diagonala paralela cu cea principala si, respectiv, cu cea secundara pe care se afla nebunul.
 Am salvat in variabila 'per' suma acestor valori, pe care am injumatatit-o deoarece fiecare nebun a fost gasit de 2 ori. Astfel, in variabila 'per' este numarul perechilor de nebuni care se ataca.
 Pentru cea de-a doua parte a problemei, in cazul in care numarul de perechi este diferit de 1, se afiseaza "NU". Altfel, am parcurs din nou matricea, iar pentru fiecare valoare am verificat:
@@ -23,13 +19,13 @@ Pentru cea de-a doua parte a problemei, in cazul in care numarul de perechi este
 -daca se poate muta astfel incat sa nu se atace cu niciun nebun (functia move);
 In cazul in care sunt indeplinite conditiile, se afiseaza "DA".
 
-  #PROBLEMA 3
+##  PROBLEMA 3
 
 Durata implementarii: 6h
 Rezolvare: 
 Am facut cate o functie pentru fiecare miscare, care modifica matricea cubului rubik. Fiecare dintre ele include rotirea fetei respective si mutarea culorilor de pe marginea fetei.
 
-  #PROBLEMA 4
+##  PROBLEMA 4
 
 Durata implementarii: 2h
 Rezolvare: 
