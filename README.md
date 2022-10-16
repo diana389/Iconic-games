@@ -19,7 +19,7 @@ Pentru cea de-a doua parte a problemei, in cazul in care numarul de perechi este
 
 * daca este egala cu 1; <br>
 * daca nebunul face parte din perechea gasita (prin verificarea pe diagonale prin cele doua functii); <br>
-* daca se poate muta astfel incat sa nu se atace cu niciun nebun (functia move);
+* daca se poate muta astfel incat sa nu se atace cu niciun nebun (functia `move`);
 
 In cazul in care sunt indeplinite conditiile, se afiseaza "DA".
 
