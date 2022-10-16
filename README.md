@@ -1,10 +1,10 @@
-#     ICONIC GAMES
+# ICONIC GAMES
   
-##  PROBLEMA 1
+## PROBLEMA 1
 
 Durata implementarii: 1.5h
 Rezolvare: Sortarea perechilor de cuvinte in functie de gradul acestora.
-Functia **compute_grade** primeste ca parametrii doua cuvinte si verifica daca sunt anagrame (functia **is_anagram**), iar in caz contrar returneaza raportul dintre rezultat si lungimea totala a sirurilor.
+Functia **compute_grade** primeste ca parametrii doua cuvinte si verifica daca sunt anagrame (functia ###   **is_anagram**), iar in caz contrar returneaza raportul dintre rezultat si lungimea totala a sirurilor.
 
 ##  PROBLEMA 2
 
