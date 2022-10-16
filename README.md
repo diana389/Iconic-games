@@ -13,7 +13,7 @@ Functia `compute_grade` primeste ca parametrii doua cuvinte si verifica daca sun
 Durata implementarii: 3h
 
 ***Rezolvare:*** 
-Am construit o matrice (***'sah'***) in care sunt evidentiati nebunii. <br>
+Am construit o matrice in care sunt evidentiati nebunii. <br>
 Pentru fiecare, am creat functiile `search_dp` si `search_ds` care returneaza numarul de nebuni cu care se ataca piesa pe diagonala paralela cu cea principala si, respectiv, cu cea secundara.<br>
 Pentru cea de-a doua parte a problemei, in cazul in care numarul de perechi este diferit de 1, se afiseaza "NU". Altfel, am parcurs din nou matricea, iar pentru fiecare valoare am verificat:
 
